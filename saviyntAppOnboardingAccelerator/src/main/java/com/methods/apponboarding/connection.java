@@ -143,7 +143,7 @@ public class connection {
         System.out.println("STATUS_THRESHOLD_CONFIG: " + STATUS_THRESHOLD_CONFIG);
         System.out.println("MAX_PAGINATION_SIZE: " + MAX_PAGINATION_SIZE);
         System.out.println("CLI_COMMAND_JSON: " + CLI_COMMAND_JSON);
-        
+        //not working 
 		
 	                    URL url1 = new URL("https://securdi-partner.saviyntcloud.com/ECM/api/v5/testConnection");
 	                    Map<String, Object> param = new LinkedHashMap<>();
