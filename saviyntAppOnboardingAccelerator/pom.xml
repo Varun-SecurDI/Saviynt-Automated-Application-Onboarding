@@ -1,0 +1,103 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.saviynt.accelerator</groupId>
+  <artifactId>saviyntAppOnboardingAccelerator</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencyManagement>
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/com.konghq/unirest-java-bom -->
+        <dependency>
+            <groupId>com.konghq</groupId>
+            <artifactId>unirest-java-bom</artifactId>
+            <version>4.0.12</version>
+            <type>pom</type>
+            <scope>import</scope>
+        </dependency>
+    </dependencies>
+</dependencyManagement>
+  
+  <dependencies>
+       <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+<dependency>
+    <groupId>commons-io</groupId>
+    <artifactId>commons-io</artifactId>
+    <version>2.14.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/com.mashape.unirest/unirest-java -->
+<dependency>
+    <groupId>com.mashape.unirest</groupId>
+    <artifactId>unirest-java</artifactId>
+    <version>1.4.9</version>
+</dependency>
+
+
+<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>5.2.4</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>5.2.4</version>
+</dependency>
+
+
+
+<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-core</artifactId>
+    <version>2.20.0</version>
+</dependency>
+
+<dependency>
+        <groupId>com.sparkjava</groupId>
+        <artifactId>spark-core</artifactId>
+        <version>2.9.3</version> <!-- Check for the latest version -->
+    </dependency>
+    
+    <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+<dependency>
+    <groupId>com.google.code.gson</groupId>
+    <artifactId>gson</artifactId>
+    <version>2.10.1</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
+<dependency>
+    <groupId>com.googlecode.json-simple</groupId>
+    <artifactId>json-simple</artifactId>
+    <version>1.1</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/com.konghq/unirest-java-core -->
+<dependency>
+    <groupId>com.konghq</groupId>
+    <artifactId>unirest-java-core</artifactId>
+</dependency>
+
+<!-- pick a JSON module if you want to parse JSON include one of these: -->
+<!-- Google GSON -->
+<dependency>
+    <groupId>com.konghq</groupId>
+    <artifactId>unirest-object-mappers-gson</artifactId>
+</dependency>
+
+<!-- OR maybe you like Jackson better? -->
+<dependency>
+    <groupId>com.konghq</groupId>
+    <artifactId>unirest-objectmapper-jackson</artifactId>
+</dependency>
+      <dependency>
+          <groupId>com.apponboarding.example</groupId>
+          <artifactId>demo</artifactId>
+          <version>0.0.1-SNAPSHOT</version>
+      </dependency>
+  </dependencies>
+</project>
